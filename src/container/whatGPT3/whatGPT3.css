@@ -1,0 +1,111 @@
+.gpt3_what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gpt3_whatgpt3{
+    padding: 1.5rem;
+    width: 1100px;
+    /* flex-direction: column; */
+    background: radial-gradient(circle at 3% 50%, rgba(0, 81, 167, 0.596) 0%, rgba(2, 60, 148, 0.548) 100%);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.gpt3_gpt3-feature  {
+display: flex;
+justify-content: center;
+}
+.gpt3_whatgpt3-heading{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  margin: 4rem 0 2rem;
+  
+}
+.gpt3_whatgpt3-heading .gradient-text{
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--font-family);
+    font-weight: 800;
+    width: 500px;
+  
+}
+.gpt3_whatgpt3-heading p{
+    color: rgba(255, 138, 113, 1);
+
+}
+.gpt3_whatgpt3-container{
+    display: flex;
+}
+.gpt3_whatgpt3-container > div {
+    /* flex-wrap: wrap; */
+    justify-content:first baseline;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1280px) {
+    .gpt3_whatgpt3{
+        padding: 1.5rem;
+        width: 950px;}
+ 
+}
+@media screen and (max-width:990px) {
+.gpt3_whatgpt3{
+        padding: 1.5rem;
+        width: 700px;
+    }
+    .gpt3_whatgpt3-container{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+
+}
+
+@media screen and (max-width:735px) {
+.gpt3_whatgpt3{
+        padding: 2rem;
+        width: 550px;
+    }
+   
+.gpt3_whatgpt3-heading .gradient-text{
+            font-size: 25px;
+            font-weight: 600;
+            width: 500px;
+        }
+.gpt3_whatgpt3-container{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+@media screen and (max-width:600px) {
+ .gpt3_whatgpt3{
+        padding: 1.5rem;
+        width: 450px;
+    }
+
+    .gpt3_feature-container_feature{
+        flex-direction: column;
+    }
+
+.gpt3_whatgpt3-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+}@media screen and (max-width:460px) {
+ .gpt3_whatgpt3{
+        padding: 1.5rem;
+        width: 350px;
+    }
+
+.gpt3_whatgpt3-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+}
+
+
